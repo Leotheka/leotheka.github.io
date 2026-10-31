@@ -9,3 +9,6 @@ header{display:flex;justify-content:space-between;align-items:baseline;margin-bo
 h1{font-size:2rem;line-height:1.2;margin:0 0 1.5rem}
 p{margin:0 0 1.2rem}
 footer{margin-top:4rem;color:var(--muted);font:14px/1.5 system-ui,sans-serif}
+article a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.18em}
+article a:hover{text-decoration-thickness:2px}
+article p:last-child{margin-top:2rem;font-style:italic}
